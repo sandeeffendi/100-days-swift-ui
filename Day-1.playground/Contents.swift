@@ -15,22 +15,20 @@ print(employeeName)
 // this is how to print string interpolation
 print("\(firstName) \(lastName)")
 
-
 // how to create string
 var singleLineString = "ini adalah string single line"
 var multiLineString = """
-ini adalah
-multi line
-string
-"""
- 
+    ini adalah
+    multi line
+    string
+    """
+
 var singleLineStringLagi = "ini adalah string single line lagi"
 
 print(singleLineString)
 print(multiLineString)
 
 print(multiLineString.count)
-
 
 print(multiLineString.uppercased())
 print(singleLineString.uppercased())
@@ -46,6 +44,10 @@ let divide = score / 2
 let multiple = score * 2
 
 print(decremement)
+
+
+
+
 
 print(increment)
 print(decremement)
