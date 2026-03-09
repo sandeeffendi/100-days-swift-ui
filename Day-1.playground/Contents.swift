@@ -65,3 +65,21 @@ var number = 12
 var anotherNumber = Double(number) * 0.2
 
 print(type(of: anotherNumber))
+
+
+// how to store truth with booleans
+let goodDogs = true
+var gameOver = false
+gameOver.toggle()
+print("ini adalah  game over \(gameOver)")
+
+gameOver.toggle()
+print("ini adalah  game over lagi \(gameOver)")
+
+
+var isAuthenticated = true
+
+
+isAuthenticated = !isAuthenticated
+
+print(isAuthenticated)
