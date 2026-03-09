@@ -83,3 +83,24 @@ var isAuthenticated = true
 isAuthenticated = !isAuthenticated
 
 print(isAuthenticated)
+
+// how to join string together
+let people = "haters"
+let action = "hate"
+
+let lyrics = people + " gonna " + action
+print(lyrics)
+
+// this is how another way to join string
+// using string interpolation
+let name = "john sumbul"
+let age = 25
+
+let hello = "Hello, my name is \(name). I'm \(age) years old"
+print(hello)
+
+// inserting number on string with concatenation
+let anotherNumber1 = 25
+let message = "Hello, my name is " + name + "." + " i'm " + String(age) + " years old."
+
+print(message)
