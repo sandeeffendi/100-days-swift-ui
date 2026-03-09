@@ -18,10 +18,10 @@ print("\(firstName) \(lastName)")
 // how to create string
 var singleLineString = "ini adalah string single line"
 var multiLineString = """
-    ini adalah
-    multi line
-    string
-    """
+ini adalah
+multi line
+string
+"""
 
 var singleLineStringLagi = "ini adalah string single line lagi"
 
@@ -45,10 +45,6 @@ let multiple = score * 2
 
 print(decremement)
 
-
-
-
-
 print(increment)
 print(decremement)
 print(increment.isMultiple(of: 3))
@@ -57,3 +53,15 @@ print(multiple)
 print(decremement.isMultiple(of: 2))
 
 print(increment)
+
+// how to store decimal number
+let decimalNumber1 = 111.111
+let decimalNumebr2 = 3.14
+let decimalNumber3 = 4.10
+
+print(type(of:decimalNumber1 + decimalNumber3))
+
+var number = 12
+var anotherNumber = Double(number) * 0.2
+
+print(type(of: anotherNumber))
